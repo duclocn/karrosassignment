@@ -1,0 +1,361 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open browser and login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1637315000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open the browser",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15552476000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-19T19:42:20.756Z",
+        "line": 15,
+        "name": "Verify filter Student Access Request with INACTIVE",
+        "description": "",
+        "id": "testing-karros-page;verify-filter-student-access-request-with-inactive;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1204563000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user inputs admin@test.com and test123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@test.com",
+                  "offset": 12
+                },
+                {
+                  "val": "test123",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.KarrosSteps.user_inputs_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1056803000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks Login button",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4261474000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verifies filter Student Access Request with Inactive status",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_navigates_to_parent_portal_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176803000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user closes the browser",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open browser and login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1313749000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open the browser",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8506108000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-19T19:42:44.723Z",
+        "line": 28,
+        "name": "Verify sorting of First Name column",
+        "description": "",
+        "id": "testing-karros-page;verify-sorting-of-first-name-column;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1191103000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user inputs admin@test.com and test123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@test.com",
+                  "offset": 12
+                },
+                {
+                  "val": "test123",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.KarrosSteps.user_inputs_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1066147000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks Login button",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100764000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on \"DSC\" arrow button of \"First Name\" column in the table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DSC\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"First Name\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.KarrosSteps.user_clicks_on_arrow_button_of_column_in_the_table(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 225171000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user verifies sorting of \"First Name\" column is sorted in \"DSC\" order",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"First Name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"DSC\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.KarrosSteps.user_verifies_sorting_of_column_is_sorted_in_order(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1070754000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "after that user clicks on \"ASC\" arrow button of \"First Name\" column in the table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ASC\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"First Name\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.KarrosSteps.after_that_user_clicks_on_arrow_button_of_column_in_the_table(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207659000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user continue verifies sorting of \"First Name\" column is sorted in \"ASC\" order",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"First Name\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"ASC\"",
+                  "offset": 67
+                }
+              ],
+              "location": "stepDefinitions.KarrosSteps.user_continue_verifies_sorting_of_column_is_sorted_in_order(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150520000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "browser is closed",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.browser_is_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open browser and login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1097509000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open the browser",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9187716000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-19T19:42:59.570Z",
+        "line": 30,
+        "name": "Connect to API and get data with GET method",
+        "description": "",
+        "id": "testing-karros-page;connect-to-api-and-get-data-with-get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2275390000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user connects to API and get data",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.user_connects_to_api_and_get_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164287000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinitions.KarrosSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing karros page",
+    "description": "",
+    "id": "testing-karros-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/karros.feature",
+    "tags": []
+  }
+]
