@@ -24,8 +24,9 @@ II. Automation Test Challenge:
 4. Download and install Eclipse for Mac: https://www.eclipse.org/downloads/
 5. Clone my project and import one to Eclipse. Make sure that you imports the project as Maven project
 6. Install "dependencies" library as in the pom.xml. If the jars library are existing in the project, please ignore this step.
-7. Download and Import Rest Assured (rest-assured-4.3.1-dist.zip) library for running the API testcase: https://github.com/rest-assured/rest-assured/wiki/Downloads
-8. Open the TestRunner in the /src/test/jave/stepDefinitions foler > Right click > Run As > JUnit Test for running the testcases.
+7. Install "Cucumber Eclipse plugin" to read the .feature file in the Eclipse IDE by: Help > Eclipse Marketplace...
+8. Download and Import Rest Assured (rest-assured-4.3.1-dist.zip) library for running the API testcase: https://github.com/rest-assured/rest-assured/wiki/Downloads
+9. Open the TestRunner in the /src/test/jave/stepDefinitions foler > Right click > Run As > JUnit Test for running the testcases.
 
 P/S: I also attached file "htmlReport.html" in target/HtmlReports to demonstrate that all testcases are passed on my system.
 
